@@ -132,3 +132,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 # Сессии для корзины
 CART_SESSION_ID = 'cart'
+
+# До конфигурации SMTP рассылаемые имэйлы выгружать в консоль
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
